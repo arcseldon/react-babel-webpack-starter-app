@@ -2,6 +2,7 @@
   "name": "react-babel-webpack",
   "version": "1.0.0",
   "description": "React Babel Webpack Demo App",
+  "author": "arcseldon",
   "main": "",
   "scripts": {
     "build": "webpack --progress --profile --colors",
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:ps_work/react_babel.git"
+    "url": "https://github.com/arcseldon/react-babel-webpack-starter-app.git"
   },
   "keywords": [
     "React",
