@@ -22,6 +22,15 @@ Install webpack and the development server:
 > $ npm i webpack-dev-server webpack -g
 ```
 
+In case it is helpful to compare globally installed versions of modules against what I have locally (babel-cli and eslint should not be required globally but referenced here for completeness)
+
+npm list -g --depth=0
+├── babel-cli@6.3.15
+├── eslint@1.10.3
+├── webpack@1.12.9
+├── webpack-dev-server@1.14.0
+
+
 Install all the project dependencies
 
 ```
