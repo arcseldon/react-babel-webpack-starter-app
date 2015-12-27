@@ -1,0 +1,62 @@
+{
+  "name": "react-babel-webpack",
+  "version": "1.0.0",
+  "description": "React Babel Webpack Demo App",
+  "main": "",
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "lint": "eslint --quiet --config=./.eslintrc --ext .jsx --ext .js src/**/**",
+    "start": "webpack-dev-server --progress --profile --colors --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:ps_work/react_babel.git"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "Babel",
+    "Demo"
+  ],
+  "author": "Carr Seldon",
+  "license": "MIT",
+  "babel": {
+    "optional": [
+      "es7.functionBind",
+      "es7.classProperties",
+      "es7.decorators"
+    ]
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.3.14",
+    "bootstrap": "^3.3.5",
+    "flux": "^2.0.3",
+    "jquery": "^2.1.4",
+    "lodash": "3.10.1",
+    "node-uuid": "^1.4.7",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "sorted-object": "^1.0.0",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^5.1.4",
+    "copy-webpack-plugin": "^0.3.3",
+    "css-loader": "^0.18.0",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-react": "^3.11.3",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.4",
+    "imports-loader": "^0.6.5",
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.2.7",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
