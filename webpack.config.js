@@ -65,6 +65,7 @@ module.exports = {
   devServer: {
     contentBase: "./public",
     noInfo: true,
+    quiet: true,
     hot: true,
     inline: true
   },

@@ -7,7 +7,8 @@
   "scripts": {
     "build": "webpack --progress --profile --colors",
     "lint": "eslint --quiet --config=./.eslintrc --ext .jsx --ext .js src/**/**",
-    "start": "webpack-dev-server --progress --profile --colors --hot"
+    "start": "webpack-dev-server --quiet --info false --profile --colors --hot",
+    "startLocal": "./node_modules/.bin/webpack-dev-server --quiet --info false --profile --colors --hot"
   },
   "repository": {
     "type": "git",
@@ -45,7 +46,7 @@
     "babel-eslint": "^4.1.6",
     "babel-loader": "^5.1.4",
     "copy-webpack-plugin": "^0.3.3",
-    "css-loader": "^0.18.0",
+    "css-loader": "^0.19.0",
     "eslint": "^1.10.3",
     "eslint-loader": "^1.1.1",
     "eslint-plugin-react": "^3.11.3",
