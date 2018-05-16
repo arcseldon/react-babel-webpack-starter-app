@@ -5,7 +5,7 @@ import React from 'react';
 /*eslint-enable */
 import {DefaultRoute, Route, NotFoundRoute, Redirect} from 'react-router';
 import App from './components/app';
-import HomePage from './components/HomePage';
+import HomePage from './components/homePage';
 import AuthorPage from './components/authors/authorPage';
 import ManageAuthorPage from './components/authors/manageAuthorPage';
 import AboutPage from './components/about/aboutPage';
